@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Kontak</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <small class="error-message" id="name-error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <small class="error-message" id="email-error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                <small class="error-message" id="message-error"></small>
+            </div>
+
+            <button type="submit">Submit</button>
+            <small class="success-message" id="success-message"></small>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

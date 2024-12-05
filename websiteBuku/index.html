@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Books Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <h2>OurBooks</h2>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Kontak</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="support.html">Bantuan</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <header>
+                <input type="text" placeholder="Search your favorite books">
+                <div class="dropdown">
+                    <button class="dropbtn">Filter by Genre</button>
+                    <div class="dropdown-content">
+                        <a href="#" data-genre="all">All</a>
+                        <a href="#" data-genre="fiction">Fiction</a>
+                        <a href="#" data-genre="non-fiction">Non-Fiction</a>
+                        <a href="#" data-genre="science">Science</a>
+                        <a href="#" data-genre="education">Education</a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Recommended Books -->
+            <section class="recommended">
+                <br>
+                <h2>Rekomendasi</h2>
+                <div class="book-carousel">
+                    <div class="book-card" data-id="0" data-title="Book Title 0" data-author="Author 0"
+                        data-rating="★★★★☆" data-image="fotoBuku/book0.jpg" data-genre="science">
+                        <img src="fotoBuku/book0.jpg" alt="Book 0" ondblclick="goToDetailPage(0)">
+                        <p>Book Title 0</p>
+                    </div>
+                    <div class="book-card" data-id="1" data-title="Book Title 1" data-author="Author 1"
+                        data-rating="★★★★☆" data-image="fotoBuku/book1.jpg" data-genre="fiction">
+                        <img src="fotoBuku/book1.jpg" alt="Book 1" ondblclick="goToDetailPage(1)">
+                        <p>Book Title 1</p>
+                    </div>
+                    <div class="book-card" data-id="2" data-title="Book Title 2" data-author="Author 2"
+                        data-rating="★★★★★" data-image="fotoBuku/book2.jpg" data-genre="non-fiction">
+                        <img src="fotoBuku/book2.jpg" alt="Book 2" ondblclick="goToDetailPage(2)">
+                        <p>Book Title 2</p>
+                    </div>
+                    <div class="book-card" data-id="3" data-title="Book Title 3" data-author="Author 3"
+                        data-rating="★★★★★" data-image="fotoBuku/book3.jpg" data-genre="science">
+                        <img src="fotoBuku/book3.jpg" alt="Book 3" ondblclick="goToDetailPage(3)">
+                        <p>Book Title 3</p>
+                    </div>
+                    <div class="book-card" data-id="4" data-title="Book Title 4" data-author="Author 4"
+                        data-rating="★★★★★" data-image="fotoBuku/book4.jpg" data-genre="science">
+                        <img src="fotoBuku/book4.jpg" alt="Book 4" ondblclick="goToDetailPage(4)">
+                        <p>Book Title 4</p>
+                    </div>
+                    <div class="book-card" data-id="5" data-title="Book Title 5" data-author="Author 5"
+                        data-rating="★★★★★" data-image="fotoBuku/book5.jpg" data-genre="education">
+                        <img src="fotoBuku/book5.jpg" alt="Book 5" ondblclick="goToDetailPage(5)">
+                        <p>Book Title 5</p>
+                    </div>
+                    <div class="book-card" data-id="6" data-title="Book Title 6" data-author="Author 6"
+                        data-rating="★★★★★" data-image="fotoBuku/book6.jpg" data-genre="non-fiction">
+                        <img src="fotoBuku/book6.jpg" alt="Book 6" ondblclick="goToDetailPage(6)">
+                        <p>Book Title 6</p>
+                    </div>
+                    <div class="book-card" data-id="7" data-title="Book Title 7" data-author="Author 7"
+                        data-rating="★★★★★" data-image="fotoBuku/book7.jpg" data-genre="education">
+                        <img src="fotoBuku/book7.jpg" alt="Book 7" ondblclick="goToDetailPage(7)">
+                        <p>Book Title 7</p>
+                    </div>
+                    <div class="book-card" data-id="8" data-title="Book Title 8" data-author="Author 8"
+                        data-rating="★★★★★" data-image="fotoBuku/book8.jpg" data-genre="non-fiction">
+                        <img src="fotoBuku/book8.jpg" alt="Book 8" ondblclick="goToDetailPage(8)">
+                        <p>Book Title 8</p>
+                    </div>
+                    <div class="book-card" data-id="9" data-title="Book Title 9" data-author="Author 9"
+                        data-rating="★★★★★" data-image="fotoBuku/book9.jpg" data-genre="fiction">
+                        <img src="fotoBuku/book9.jpg" alt="Book 9" ondblclick="goToDetailPage(9)">
+                        <p>Book Title 9</p>
+                    </div>
+                    <!-- Tambahkan buku lainnya dengan ID unik -->
+            </section>
+        </div>
+
+        <!-- Book Detail Preview -->
+        <aside class="book-preview">
+            <h3>Book Detail</h3>
+            <img id="preview-image" src="" alt="Book Cover">
+            <div class="details">
+                <h4 id="preview-title">Pilih Sebuah Buku</h4>
+                <p id="preview-author">Penulis: </p>
+                <p id="preview-genre">Genre: </p>
+                <p id="preview-rating">Rating: </p>
+            </div>
+        </aside>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

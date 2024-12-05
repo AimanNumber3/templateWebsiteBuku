@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body>
+    <div class="support-container">
+        <h1>Bantuan</h1>
+        <p>Jika Anda memiliki pertanyaan atau butuh bantuan, silakan isi formulir di bawah ini. 
+            Tim dukungan kami akan segera menghubungi Anda.</p>
+        
+        <form id="support-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <small class="error-message" id="name-error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <small class="error-message" id="email-error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="issue">Masalah</label>
+                <textarea id="issue" name="issue" placeholder="Describe your issue"></textarea>
+                <small class="error-message" id="issue-error"></small>
+            </div>
+
+            <button type="submit">Submit</button>
+            <small class="success-message" id="success-message"></small>
+        </form>
+    </div>
+    <script src="support.js"></script>
+</body>
+</html>
