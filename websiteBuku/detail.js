@@ -5,7 +5,7 @@ const bookData = {
         author: "Author 0",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book0.jpg",
+        image: "fotoBuku/book0.jpg",
         description: "An insightful non-fiction book that explores important topics."
     },
     1: {
@@ -13,7 +13,7 @@ const bookData = {
         author: "Author 1",
         rating: "★★★★☆",
         genre: "Fiction",
-        image: "book1.jpg",
+        image: "fotoBuku/book1.jpg",
         description: "This is the first book in the collection, a thrilling fiction story."
     },
     2: {
@@ -21,7 +21,7 @@ const bookData = {
         author: "Author 2",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book2.jpg",
+        image: "fotoBuku/book2.jpg",
         description: "An insightful non-fiction book that explores important topics."
     },
     3: {
@@ -29,7 +29,7 @@ const bookData = {
         author: "Author 3",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book3.jpg",
+        image: "fotoBuku/book3.jpg",
         description: "This is the first book in the collection, a thrilling fiction story."
     },
     4: {
@@ -37,7 +37,7 @@ const bookData = {
         author: "Author 4",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book4.jpg",
+        image: "fotoBuku/book4.jpg",
         description: "An insightful non-fiction book that explores important topics."
     },
     5: {
@@ -45,7 +45,7 @@ const bookData = {
         author: "Author 5",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book5.jpg",
+        image: "fotoBuku/book5.jpg",
         description: "This is the first book in the collection, a thrilling fiction story."
     },
     6: {
@@ -53,7 +53,7 @@ const bookData = {
         author: "Author 6",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book6.jpg",
+        image: "fotoBuku/book6.jpg",
         description: "An insightful non-fiction book that explores important topics."
     },
     7: {
@@ -61,7 +61,7 @@ const bookData = {
         author: "Author 7",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book7.jpg",
+        image: "fotoBuku/book7.jpg",
         description: "This is the first book in the collection, a thrilling fiction story."
     },
     8: {
@@ -69,7 +69,7 @@ const bookData = {
         author: "Author 8",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book8.jpg",
+        image: "fotoBuku/book8.jpg",
         description: "An insightful non-fiction book that explores important topics."
     },
     9: {
@@ -77,7 +77,7 @@ const bookData = {
         author: "Author 9",
         rating: "★★★★★",
         genre: "Non-Fiction",
-        image: "book9.jpg",
+        image: "fotoBuku/book9.jpg",
         description: "This is the first book in the collection, a thrilling fiction story."
     },
     // Tambahkan detail buku lainnya
